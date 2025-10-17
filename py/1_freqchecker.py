@@ -1,3 +1,14 @@
+
+import pandas as pd
+import re
+from collections import Counter
+from itertools import chain
+
+SRC = "data/segments_clean.csv"   
+TARGET_TERMS = ["Trans", "Transgender"]
+CASE_SENSITIVE = False
+TOP_COOCUR = 20        
+
 df = pd.read_csv(SRC)
 df["clean_text"] = df["clean_text"].fillna("")
 
