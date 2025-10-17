@@ -1,0 +1,26 @@
+  # Descriptove (Remove this line)
+speaker,D
+mace,7.87
+gosar,6.25
+greene,5.03
+luna,3.3
+boebert,2.03
+biggs,0.86
+
+  # Hybrid (Remove this line)
+speaker,H
+boebert,25.42
+biggs,13.22
+gosar,11.88
+mace,8.55
+luna,7.42
+greene,5.28
+
+  # Substansive (Remove this line)
+speaker,S
+boebert,29.15
+biggs,27.87
+gosar,26.88
+greene,24.81
+mace,11.66
+luna,3.85
